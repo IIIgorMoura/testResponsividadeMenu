@@ -44,6 +44,10 @@ a {
     width: 250px;
 }
 
+.item {
+    padding: 0px 20px;
+}
+
 .item:hover {
     font: 400 35px 'mont', sans-serif;
     transition: 0.5s;
@@ -421,13 +425,15 @@ html {
 
     #opc {
         display: none;
+
     }
 
     .opcoes {
             display: none;
             flex-direction: column;
             justify-content: space-around;
-            background-color: #303030e6;
+            align-items: center;
+            background-color: #ffffffe6;
             position: absolute;
             top: 80px;
             left: 0px;
